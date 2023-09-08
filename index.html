@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <title>Document</title>
+    <style>
+        .intro .image ,.comment-container{
+
+            border-radius: 20px;
+          
+            overflow: hidden;
+        }
+.intro .text{
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+}
+        footer a {
+           color: #6c757d;
+
+        }
+        footer a:hover{
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body class="bg-light">
+<h1 class="container my-3">The Flower Blog</h1>
+    <nav class="navbar navbar-expand-lg bg-dark">
+  
+        <div class=" navbar-nav d-flex  justify-content-evenly container ">
+            <a class="nav-link text-secondary " aria-current="page" href="#">Blog</a>
+            <a class="nav-link text-secondary" href="#">About</a>
+            <a class="nav-link text-secondary" href="#">Archives</a>
+            <a class="nav-link text-secondary" href="#">Contact</a>
+            <a class="nav-link text-secondary" href="#"><img src="./Images/rss.png" alt=""> Subscribe Via. RSS</a>
+        </div>
+    </nav>
+    <section class="intro container position-relative my-3">
+        <div class="image text-end  bg-image bg-size-cover bg-position-center "
+        style="background-image: url('./Images/intro_background.png');">
+            <img src="./Images/intro_flower.png" alt="">
+        </div>
+      <div class="text position-absolute col-lg-5 col-8 0">
+        <h2 class="text-light">
+            Do you love flowers as much as we do?
+        </h2>
+        <p class="fs-6 text-light">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+        </p>
+      </div>
+    </section>
+    <!-- main body -->
+    <section class="main-body row container m-auto p-2">
+        <section class="main-content col-lg-9 col-12">
+            <h2 class="py-3">This is the title of a blog post</h2>
+            <p class="text-secondary">
+                <i>This is the title of a blog post
+                    Posted on June 29th 2009 by <a class="text-secondary" href="#">Mads Kjar</a> - <a
+                        class="text-secondary" href="#">3comments</a></i>
+            </p>
+            <p class="fs-6 ">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod tellus eu orci imperdiet nec
+                rutrum lacus blandit. Cras enim nibh, sodales ultricies elementum vel, fermentum id tellus. Proin metus
+                odio, ultricies eu pharetra dictum, laoreet id odio. Curabitur in odio augue. Morbi congue auctor
+                interdum. Phasellus sit amet metus justo. Phasellus vitae tellus orci, at elementum ipsum. In in quam
+                eget diam adipiscing condimentum. Maecenas gravida diam vitae nisi convallis vulputate quis sit amet
+                nibh. Nullam ut velit tortor. Curabitur ut elit id nisl volutpat consectetur ac ac lorem. Quisque non
+                elit et elit lacinia lobortis nec a velit. Sed ac nisl sed enim consequat porttitor.
+            </p>
+            <p class="image">
+                <img src="./Images/flower.png" alt="">
+            </p>
+            <span><i class="fw-lighter">This a beautiful flower</i> </span>
+            <p class="fs-6 ">Pellentesque ut sapien arcu, egestas mollis massa. Fusce lectus leo, fringilla at aliquet
+                sit amet, volutpat non erat. Aenean molestie nibh vitae turpis venenatis vel accumsan nunc tincidunt.
+                Suspendisse id purus vel felis auctor mattis non ac erat. Pellentesque sodales venenatis condimentum.
+                Aliquam sit amet nibh nisi, ut pulvinar est. Sed ullamcorper nisi vel tortor volutpat eleifend.
+                Vestibulum iaculis ullamcorper diam consectetur sagittis. Quisque vitae mauris ut elit semper
+                condimentum varius nec nisl. Nulla tempus porttitor dolor ac eleifend. Proin vitae purus lectus, a
+                hendrerit ipsum. Aliquam mattis lacinia risus in blandit.</p>
+            <p>Vivamus vitae nulla dolor. Suspendisse eu lacinia justo. Vestibulum a felis ante, non aliquam leo.
+                Aliquam eleifend, est viverra semper luctus, metus purus commodo elit, a elementum nisi lectus vel
+                magna. Praesent faucibus leo sit amet arcu vehicula sed facilisis eros aliquet. Etiam sodales, enim sit
+                amet mollis vestibulum, ipsum sapien accumsan lectus, eget ultricies arcu velit ut diam. Aenean
+                fermentum luctus nulla, eu malesuada urna consequat in. Pellentesque habitant morbi tristique senectus
+                et netus et malesuada fames ac turpis egestas. Pellentesque massa lacus, sodales id facilisis ac,
+                lobortis sed arcu. Donec hendrerit fringilla ligula, ac rutrum nulla bibendum id. Cras sapien ligula,
+                tincidunt eget euismod nec, ultricies eu augue. Nulla vitae velit sollicitudin magna mattis eleifend.
+                Nam enim justo, vulputate vitae pretium ac, rutrum at turpis. Aenean id magna neque. Sed rhoncus aliquet
+                viverra.</p>
+            <div class="comments py-3 border-top">
+                <h3 class="fw-bold">Comments</h3>
+                <div class="comment-container d-flex p-3 ">
+                    <div class="info col-5">
+                        <a class="name text-dark fw-bolder" href="#">George weashington</a>
+                        <div class="date">on June 29th 2009 at 23:40</div>
+                    </div class="">
+                    <div class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut.</div>
+                </div>
+                <div class="comment-container d-flex p-3 bg-success">
+                    <div class="info col-5">
+                        <a class="name text-dark fw-bolder" href="#">Bemjamin Franklin</a>
+                        <div class="date">on June 29th 2009 at 23:40</div>
+                    </div>
+                    <div class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut.</div>
+                </div>
+                <div class="comment-container d-flex p-3">
+                    <div class="info col-5">
+                        <a class="name text-dark fw-bolder" href="#">Barak Obama</a>
+                        <div class="date">on June 29th 2009 at 23:40</div>
+                    </div>
+                    <div class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut.</div>
+                </div>
+            </div>
+            <div class="set-comment">
+                <h3>Post a comment</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="website" class="form-label">Website</label>
+                        <input type="text" class="form-control" id="website">
+                    </div>
+                    <div class="mb-3">
+                        <label for="comment" class="form-label">Comment</label>
+                        <textarea class="form-control" id="comment" rows="3"></textarea>
+                    </div>
+                  <div class="text-center">
+                    <button type="submit" class="">Post Comment</button>
+                  </div>
+                </form>
+       </div>
+        </section>
+        <aside class="col-lg-3 d-none d-sm-block   py-2  bg-image bg-size-cover bg-position-center"
+            style="background-image: url('./Images/sidebar_background.png');">
+            <div class="categories p-3 bg-image bg-size-cover bg-position-center"
+                style="background-image: url('./Images/sidebar_section_background.png');">
+                <h3>Categories</h3>
+                <ul class="list-unstyled m-3">
+                    <li><a href="#"></a>Lorem ipsum dolor</li>
+                    <li><a href="#"></a>Sit amet consectetur</li>
+                    <li><a href="#"></a>Adipisicing elit sed</li>
+                    <li><a href="#"></a>Do eiusmod tempor</li>
+                    <li><a href="#"></a>Incidiunt ut labore</li>
+                </ul>
+            </div>
+            <div class="archives p-3 bg-image bg-size-cover bg-position-center"
+                style="background-image: url('./Images/sidebar_section_background.png');">
+                <h3>Archives</h3>
+                <ul class="list-unstyled m-3">
+                    <li><a href="#"></a>December2008</li>
+                    <li><a href="#">January 2009</a></li>
+                    <li><a href="#"></a>Febraury 2009</li>
+                    <li><a href="#"></a>March 2009</li>
+                    <li><a href="#"></a>April 2009</li>
+                    <li><a href="#"></a>May 2009</li>
+                    <li><a href="#"></a>June 2009</li>
+                </ul>
+            </div>
+        </aside>
+    </section>
+    <!-- footer-->
+    <footer class=" bg-dark">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col">
+                    <div class="h-100">
+
+                        <div class="card-body">
+                            <h5 class="card-title text-light">About</h5>
+                            <p class="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud exercitation ullamco<a href="#"
+                                    class="text-secondary fw-bolder"> laboris nisi ut aliquip </a> ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Blogroll</h5>
+                            <p class="card-text">
+                            <ul style="list-style-type: square ">
+                                <li class="link-color"><a href="#" class="link-color">NETTUTS+</a></li>
+                                <li class="link-color"><a href="#" class="link-color">FreelanceSwitch</a></li>
+                                <li class="link-color"><a href="#" class="link-color">In The Woods</a></li>
+                                <li class="link-color"><a href="#" class="link-color">Netsetter</a></li>
+                                <li class="link-color"><a href="#" class="link-color">PSDTUTS+</a></li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Popular</h5>
+                            <p class="card-text">
+                            <ul style="list-style-type: square">
+                                <li class="link-color"><a href="#" class="link-color">This is the title of a
+                                        blog post</a></li>
+                                <li class="link-color"><a href="#" class="link-color">Lorem ipsum dolor sit
+                                        amet</a></li>
+                                <li class="link-color"><a href="#" class="link-color">Consectetur adipisicing
+                                        elit, sed do eiusmod</a></li>
+                                <li class="link-color"><a href="#" class="link-color">Duis aute irure dolor</a>
+                                </li>
+                                <li class="link-color"><a href="#" class="link-color">Excepteur sint occaecat
+                                        cupidatat</a></li>
+                                <li class="link-color"><a href="#" class="link-color">Reprehenderit in voluptate
+                                        velit</a></li>
+                                <li class="link-color"><a href="#" class="link-color">Officia deserunt mollit
+                                        anim id est laborum</a></li>
+                                <li class="link-color"><a href="#" class="link-color">Lorem ipsum dolor sit
+                                        amet</a></li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
